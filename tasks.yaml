@@ -1,4 +1,3 @@
-cat > tasks.yaml << 'EOF'
 ---
 apiVersion: tekton.dev/v1beta1
 kind: Task
@@ -38,4 +37,3 @@ spec:
         set -e
         echo "***** Running jasminetests *****"
         npx jasmine
-EOF
